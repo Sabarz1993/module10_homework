@@ -1,0 +1,66 @@
+.container {
+    margin: 0 auto;
+    width: 510px;
+    min-height: 500px;
+    background-color: rgba(90, 171, 247, 0.575);
+    border-radius: 6px;
+    box-shadow: 0 5px 30px 0 rgba(0,0,0,0.2);
+}
+
+.input {
+    margin: 15px 10px 15px 15px;
+    width: 250px;
+    height: 30px;
+    border: 3px solid rgba(55, 152, 243, 0.575);
+    border-radius: 8px;
+    box-shadow: 0 5px 30px 0 rgba(0,0,0,0.2);
+}
+
+.btn {
+    width: 60px;
+    height: 35px;
+    border: 1.5px solid rgba(21, 196, 250, 0.575);
+    border-radius: 8px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 5px 30px 0 rgba(0,0,0,0.2);
+}
+
+.btn-geo {
+    width: max-content;
+    margin: 5px auto;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.btn:active {
+    transform: scale(0.9);
+}
+
+.output {
+    background-color: rgb(255, 255, 255);
+    width: 490px;
+    min-height: 450px;
+    max-height: 450px;
+    margin: 0 auto;
+    border: 2px solid rgb(255, 255, 255) ;
+    border-radius: 6px;
+    display: block;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.2);
+    overflow: auto;
+}
+
+.divMessage {
+    align-self: start;
+    justify-items: flex-start;
+    display: block;
+}
+
+
+.input:hover {
+    transform: scale(1.01);
+}
